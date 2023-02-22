@@ -21,7 +21,14 @@ var ctx = context.Background()
 func main() {
     app := &cli.App{
         Name:  "tail2redis",
-        Usage: "Tailing a file to redis PubSub",
+        Usage: "Tailing a file to redis server (PubSub)",
+        Compiled: time.Now(),
+        Authors: []*cli.Author{
+            &cli.Author{
+                Name:  "Namhyeon Go",
+                Email: "abuse@catswords.net",
+            },
+        },
         Flags: []cli.Flag{
             &cli.StringFlag{
                 Name:    "file",
