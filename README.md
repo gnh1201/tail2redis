@@ -6,10 +6,13 @@ Tailing a file to Redis server (PubSub)
 ```bash
 $ ./tail2redis -h
 NAME:
-   tail2redis - Tailing a file to redis PubSub
+   tail2redis - Tailing a file to redis server (PubSub)
 
 USAGE:
    tail2redis [global options] command [command options] [arguments...]
+
+AUTHOR:
+   Namhyeon Go <abuse@catswords.net>
 
 COMMANDS:
    help, h  Shows a list of commands or help for one command
