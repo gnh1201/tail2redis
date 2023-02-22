@@ -25,7 +25,7 @@ GLOBAL OPTIONS:
    --channel value, -c value   Redis PubSub channel (default: "tail2redis")
    --help, -h                  show help
 
-$ ./tail2redis -H localhost -P 6379 -p [PASSWORD] -c [CHANNEL] -f /var/log/message
+$ ./tail2redis -H localhost -P 6379 -p [PASSWORD] -c [CHANNEL] -f /var/log/messages
 ```
 
 ## Contact me
