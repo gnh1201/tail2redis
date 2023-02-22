@@ -1,5 +1,5 @@
 # tail2redis
-Tailing a file to Redis server
+Tailing a file to Redis server (PubSub)
 
 ## Example
 
